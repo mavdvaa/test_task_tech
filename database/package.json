@@ -1,0 +1,24 @@
+{
+  "name": "sql_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "load": "tsx src/load.ts",
+    "load:reviews": "tsx src/loadReviews.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "csv-parser": "^3.2.1",
+    "dotenv": "^17.4.2",
+    "pg": "^8.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "@types/pg": "^8.20.3",
+    "tsx": "^4.23.4",
+    "typescript": "^7.0.2"
+  }
+}
